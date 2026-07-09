@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kuantokusta": {
+      "command": "python",
+      "args": ["-m", "kuantokusta_mcp.server"]
+    }
+  }
+}
