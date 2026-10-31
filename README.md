@@ -1,5 +1,7 @@
 # kuantokusta-mcp
 
+<!-- mcp-name: io.github.ThiagoJacobLannes/kuantokusta-mcp -->
+
 MCP server for [KuantoKusta.pt](https://www.kuantokusta.pt/) — Portugal's main product price comparator.
 
 ## Tools
@@ -19,6 +21,16 @@ Parameters:
 Get full details for a product URL from a `search` result: name, description, 45+ tech specs, and all store offers sorted by total price (product + shipping).
 
 ## Install
+
+**Quickest** (needs [uv](https://docs.astral.sh/uv/)): no clone needed, it runs straight from PyPI.
+
+```bash
+claude mcp add kuantokusta -- uvx kuantokusta-mcp
+```
+
+For Claude Desktop, use `"command": "uvx", "args": ["kuantokusta-mcp"]`.
+
+**From source:**
 
 ```bash
 cd tools/kuantokusta-mcp

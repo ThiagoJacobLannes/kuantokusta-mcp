@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ThiagoJacobLannes/kuantokusta-mcp",
+  "title": "KuantoKusta",
+  "description": "Search products and compare store prices on KuantoKusta, Portugal's price comparator.",
+  "repository": {
+    "url": "https://github.com/ThiagoJacobLannes/kuantokusta-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thiagolannes.com",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "kuantokusta-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
